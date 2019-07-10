@@ -1,7 +1,7 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 import jQuery from 'jquery';  // necessary for jshint to pass
 
-export default Ember.Component.extend({
+export default Component.extend({
   isDragging: false,
   isVertical: true,
   splitterWidth: 6,
