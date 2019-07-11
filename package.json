@@ -1,29 +1,88 @@
 {
-  "name": "ember-cli-happy-splitter",
-  "version": "0.5.2",
-  "description": "Ember componet for split panel that works without CSP violations",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
+  "_from": "git+https://github.com/swi2012/ember-cli-happy-splitter.git#0.5.2.1",
+  "_id": "ember-cli-happy-splitter@0.5.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ember-cli-happy-splitter",
+  "_phantomChildren": {
+    "amdefine": "1.0.1",
+    "array-equal": "1.0.0",
+    "async-disk-cache": "1.3.4",
+    "async-promise-queue": "1.0.5",
+    "blank-object": "1.0.2",
+    "brace-expansion": "1.1.11",
+    "broccoli-filter": "1.3.0",
+    "broccoli-plugin": "1.3.1",
+    "can-symlink": "1.0.0",
+    "clone": "2.1.2",
+    "convert-source-map": "1.6.0",
+    "debug": "2.6.9",
+    "escape-string-regexp": "1.0.5",
+    "esutils": "2.0.2",
+    "exists-sync": "0.0.4",
+    "fast-ordered-set": "1.0.3",
+    "fs-readdir-recursive": "0.1.2",
+    "fs-tree-diff": "0.5.9",
+    "get-stdin": "4.0.1",
+    "has-ansi": "2.0.0",
+    "hash-for-dep": "1.5.1",
+    "heimdalljs": "0.2.6",
+    "heimdalljs-logger": "0.1.10",
+    "is-finite": "1.0.2",
+    "is-integer": "1.0.7",
+    "json-stable-stringify": "1.0.1",
+    "mkdirp": "0.5.1",
+    "object-assign": "4.1.1",
+    "os-tmpdir": "1.0.2",
+    "output-file-sync": "1.1.2",
+    "path-is-absolute": "1.0.1",
+    "path-posix": "1.0.0",
+    "private": "0.1.8",
+    "promise-map-series": "0.2.3",
+    "regenerator": "0.8.40",
+    "regexpu": "1.3.0",
+    "resolve": "1.11.1",
+    "rimraf": "2.6.3",
+    "rsvp": "3.6.2",
+    "semver": "5.7.0",
+    "shebang-regex": "1.0.0",
+    "slash": "1.0.0",
+    "source-map": "0.5.7",
+    "symlink-or-copy": "1.2.0",
+    "trim-right": "1.0.1",
+    "try-resolve": "1.0.1",
+    "user-home": "1.1.1",
+    "walk-sync": "0.3.4"
   },
-  "scripts": {
-    "start": "ember server",
-    "build": "ember build",
-    "test": "ember try:testall"
-  },
-  "repository": {
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/ZebraFlesh/ember-cli-happy-splitter.git"
+    "raw": "ember-cli-happy-splitter@git+https://github.com/swi2012/ember-cli-happy-splitter.git#0.5.2.1",
+    "name": "ember-cli-happy-splitter",
+    "escapedName": "ember-cli-happy-splitter",
+    "rawSpec": "git+https://github.com/swi2012/ember-cli-happy-splitter.git#0.5.2.1",
+    "saveSpec": "git+https://github.com/swi2012/ember-cli-happy-splitter.git#0.5.2.1",
+    "fetchSpec": "https://github.com/swi2012/ember-cli-happy-splitter.git",
+    "gitCommittish": "0.5.2.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/swi2012/ember-cli-happy-splitter.git#3d95cf0318aa04236017d3865c17f25148ddd50a",
+  "_spec": "ember-cli-happy-splitter@git+https://github.com/swi2012/ember-cli-happy-splitter.git#0.5.2.1",
+  "_where": "/home/morsov/devel/foundation/ricomwebtrader",
+  "author": {
+    "name": "ZebraFlesh"
   },
   "bugs": {
     "url": "https://github.com/ZebraFlesh/ember-cli-happy-splitter/issues"
   },
-  "engines": {
-    "node": ">= 0.10.0"
+  "bundleDependencies": false,
+  "dependencies": {
+    "ember-cli-babel": "^7.7.3",
+    "ember-cli-htmlbars": "^3.0.1"
   },
-  "author": "ZebraFlesh",
-  "homepage": "https://github.com/ZebraFlesh/ember-cli-happy-splitter",
-  "license": "MIT",
+  "deprecated": false,
+  "description": "Ember componet for split panel that works without CSP violations",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
     "ember-cli": "0.2.5",
@@ -40,6 +99,17 @@
     "ember-export-application-global": "^1.0.2",
     "ember-try": "0.0.4"
   },
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/ZebraFlesh/ember-cli-happy-splitter",
   "keywords": [
     "ember-addon",
     "ember",
@@ -49,11 +119,16 @@
     "split container",
     "split panel"
   ],
-  "dependencies": {
-    "ember-cli-babel": "^5.0.0",
-    "ember-cli-htmlbars": "^0.7.6"
+  "license": "MIT",
+  "name": "ember-cli-happy-splitter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZebraFlesh/ember-cli-happy-splitter.git"
   },
-  "ember-addon": {
-    "configPath": "tests/dummy/config"
-  }
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember try:testall"
+  },
+  "version": "0.5.2"
 }
